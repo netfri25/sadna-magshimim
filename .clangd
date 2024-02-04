@@ -1,0 +1,2 @@
+CompileFlags:
+  Add: [-Wall, -Wextra, -pedantic, -Wno-language-extension-token, -Wno-gnu-binary-literal, -Wno-string-plus-int, -Wno-empty-translation-unit, -Wno-unused-label, -Wno-gnu-empty-struct, -Wno-logical-op-parentheses, -Wno-gnu-zero-variadic-macro-arguments, -xc++, -std=c++14]
