@@ -4,5 +4,6 @@
 
 class Sequence : public Type {
 public:
-    Sequence();
+    Sequence(std::string const& name);
+    virtual int len() const = 0;
 };

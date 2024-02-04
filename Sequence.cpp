@@ -1,3 +1,3 @@
 #include "Sequence.h"
 
-Sequence::Sequence() : Type() {}
+Sequence::Sequence(std::string const& name) : Type(name) {}

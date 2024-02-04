@@ -1,6 +1,6 @@
 #include "Boolean.h"
 
-Boolean::Boolean(bool const value) : Type(), _value(value) {}
+Boolean::Boolean(bool const value) : Type("bool"), _value(value) {}
 
 bool Boolean::isPrintable() const {
     return true;
