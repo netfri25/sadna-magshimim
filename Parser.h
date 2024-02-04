@@ -7,9 +7,13 @@
 #include <iostream>
 #include <sstream>
 
-class Parser {
-  public:
-    static Type* parseString(std::string str);
 
-  private:
+class Parser
+{
+public:
+    static Type* parseString(std::string str);
+    static Type* getType(std::string &str);
+
+private:
+
 };

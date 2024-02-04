@@ -17,8 +17,11 @@ int main(int argc, char** argv) {
 
     while (input_string != "quit()") {
         // parsing command
-        Parser::parseString(input_string);
-
+        try {
+            Parser::parseString(input_string);
+        } catch (InterpreterException const& e) {
+            std::cerr << e.what() << std::endl;
+        }
 
         // get new command from user
         std::cout << ">>> ";
