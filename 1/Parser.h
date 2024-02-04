@@ -7,12 +7,9 @@
 #include <iostream>
 #include <sstream>
 
+class Parser {
+  public:
+    static Type* parseString(std::string str);
 
-class Parser
-{
-public:
-	static Type* parseString(std::string str);
-
-private:
-
+  private:
 };

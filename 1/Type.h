@@ -1,7 +1,4 @@
 #pragma once
 
-
-class Type
-{
-
+class Type {
 };
