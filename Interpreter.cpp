@@ -2,6 +2,7 @@
 #include "InterpreterException.h"
 #include "Parser.h"
 #include <iostream>
+#include <limits>
 
 #define WELCOME "Welcome to Magshimim Python Interperter version 1.0 by "
 #define YOUR_NAME "[Netanel Friedman]"

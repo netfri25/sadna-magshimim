@@ -4,7 +4,7 @@
 
 class Integer : public Type {
 public:
-    Integer(int const value, bool const isTemp = false);
+    Integer(int const value);
 
     virtual bool isPrintable() const override;
     virtual std::string toString() const override;

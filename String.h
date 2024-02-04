@@ -4,7 +4,7 @@
 
 class String : public Sequence {
 public:
-    String(std::string const& value, bool const isTemp = false);
+    String(std::string const& value);
 
     virtual bool isPrintable() const override;
     virtual std::string toString() const override;

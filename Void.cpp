@@ -1,6 +1,6 @@
 #include "Void.h"
 
-Void::Void(bool const isTemp) : Type(isTemp) {}
+Void::Void() : Type() {}
 
 bool Void::isPrintable() const {
     return false;

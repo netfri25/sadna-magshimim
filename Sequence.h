@@ -4,5 +4,5 @@
 
 class Sequence : public Type {
 public:
-    Sequence(bool const isTemp = false);
+    Sequence();
 };

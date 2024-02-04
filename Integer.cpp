@@ -2,7 +2,7 @@
 
 #include <string>
 
-Integer::Integer(int const value, bool const isTemp) : Type(isTemp), _value(value) {}
+Integer::Integer(int const value) : Type(), _value(value) {}
 
 bool Integer::isPrintable() const {
     return true;

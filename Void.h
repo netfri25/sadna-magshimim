@@ -4,7 +4,7 @@
 
 class Void : public Type {
 public:
-    Void(bool const isTemp = false);
+    Void();
 
     virtual bool isPrintable() const override;
     virtual std::string toString() const override;

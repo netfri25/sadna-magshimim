@@ -5,7 +5,7 @@
 
 class Boolean : public Type {
 public:
-    Boolean(bool const value, bool const isTemp = false);
+    Boolean(bool const value);
 
     virtual bool isPrintable() const override;
     virtual std::string toString() const override;
